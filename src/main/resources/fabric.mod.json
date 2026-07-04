@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "raidmine_minibaritone",
+  "version": "${version}",
+  "name": "RaidMine MiniBaritone",
+  "description": "Простой клиентский автопоиск пути для Fabric 1.21.11: /mb goto x y z, /mb stop, /mb status.",
+  "authors": ["RaidMine"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "ru.raidmine.minibaritone.MiniBaritoneClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
